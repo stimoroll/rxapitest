@@ -3,7 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import { CircularProgress, Grid, Paper } from '@material-ui/core/';
 import SearchBox from './SearchIn';
 import SimpleCard from './SimpleCard';
-
+//NOTICE: form UI perspecitve is good to allow user to have 2 or more 
+// display version with some toggle switch with icons: 
+// - list view
+// - simple grid view
+// - masonary grid view
 const useStyles = makeStyles(theme => ({
     grid: {
       flexGrow: 1,

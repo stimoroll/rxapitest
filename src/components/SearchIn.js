@@ -6,7 +6,8 @@ import SearchIcon from '@material-ui/icons/Search';
 import ClearIcon from '@material-ui/icons/Clear';
 
 //TODO: keyboard control: ESC cleare filter
-
+//NOTICE: in other cases, where data not comes at once from backend 
+//NOTICE: is good to make autocomplete search box and suggest some fitting therms
 const useStyles = makeStyles({
     root: {
       padding: '2px 4px',

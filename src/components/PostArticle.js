@@ -3,7 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Button, Paper, Typography } from '@material-ui/core/';
 
 //TODO stylize
-//TODO focus on back button
+//TODO focus on back button and keyboard access for ARIA
+//TODO add some transition / animations effects
 const useStyles = makeStyles({
     postarticle: {
 
